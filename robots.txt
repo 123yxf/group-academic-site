@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://123yxf.github.io/group-academic-site/sitemap.xml
+
