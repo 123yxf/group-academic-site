@@ -55,10 +55,30 @@
 
     <section class="section container">
       <div class="section-heading"><p class="section-index">01</p><h2><span class="zh">研究方向</span><span class="en">Research Areas</span></h2></div>
-      <div class="feature-grid">
-        <article class="feature-card"><p class="card-kicker"><span class="zh">方向一</span><span class="en">Area One</span></p><h3><span class="zh">基因表达调控与网络建模</span><span class="en">Gene Regulation and Network Modeling</span></h3><p><span class="zh">替换为你们在转录调控、多组学整合或网络推断方面的真实研究内容。</span><span class="en">Replace with your actual work in transcriptional regulation, multi-omics integration, or network inference.</span></p></article>
-        <article class="feature-card"><p class="card-kicker"><span class="zh">方向二</span><span class="en">Area Two</span></p><h3><span class="zh">面向生命科学的智能算法</span><span class="en">Intelligent Algorithms for Life Science</span></h3><p><span class="zh">替换为你们在机器学习、大模型、图算法或统计建模方面的真实项目。</span><span class="en">Replace with your actual projects in machine learning, foundation models, graph algorithms, or statistical modeling.</span></p></article>
-        <article class="feature-card"><p class="card-kicker"><span class="zh">方向三</span><span class="en">Area Three</span></p><h3><span class="zh">数据平台与高性能计算</span><span class="en">Data Platforms and High-Performance Computing</span></h3><p><span class="zh">替换为你们的数据集、工具平台、计算集群、软件系统或在线服务。</span><span class="en">Replace with your datasets, tools, computing clusters, software systems, or online services.</span></p></article>
+      <div class="feature-grid interactive-grid" id="researchGrid">
+        <article class="feature-card is-active" tabindex="0" data-preview-zh="适合放你们组最核心的科学问题、正在开发的方法，以及希望吸引的合作方向。" data-preview-en="Use this for the group's central scientific question, active methods, and collaboration directions.">
+          <p class="card-kicker"><span class="zh">方向一</span><span class="en">Area One</span></p>
+          <h3><span class="zh">基因表达调控与网络建模</span><span class="en">Gene Regulation and Network Modeling</span></h3>
+          <p><span class="zh">替换为你们在转录调控、多组学整合或网络推断方面的真实研究内容。</span><span class="en">Replace with your actual work in transcriptional regulation, multi-omics integration, or network inference.</span></p>
+          <div class="hover-reveal"><span class="zh">可补充：数据类型、模型名称、合作疾病或物种。</span><span class="en">Add data types, model names, diseases, or species.</span></div>
+        </article>
+        <article class="feature-card" tabindex="0" data-preview-zh="适合放机器学习、大模型、图算法、统计模型的代表项目和可公开代码。" data-preview-en="Use this for machine learning, foundation model, graph algorithm, or statistical modeling projects.">
+          <p class="card-kicker"><span class="zh">方向二</span><span class="en">Area Two</span></p>
+          <h3><span class="zh">面向生命科学的智能算法</span><span class="en">Intelligent Algorithms for Life Science</span></h3>
+          <p><span class="zh">替换为你们在机器学习、大模型、图算法或统计建模方面的真实项目。</span><span class="en">Replace with your actual projects in machine learning, foundation models, graph algorithms, or statistical modeling.</span></p>
+          <div class="hover-reveal"><span class="zh">可补充：输入数据、预测任务、验证方式。</span><span class="en">Add inputs, prediction tasks, and validation plans.</span></div>
+        </article>
+        <article class="feature-card" tabindex="0" data-preview-zh="适合放数据库、在线工具、算力平台、工作流系统，以及访问入口。" data-preview-en="Use this for databases, web tools, computing platforms, workflow systems, and access links.">
+          <p class="card-kicker"><span class="zh">方向三</span><span class="en">Area Three</span></p>
+          <h3><span class="zh">数据平台与高性能计算</span><span class="en">Data Platforms and High-Performance Computing</span></h3>
+          <p><span class="zh">替换为你们的数据集、工具平台、计算集群、软件系统或在线服务。</span><span class="en">Replace with your datasets, tools, computing clusters, software systems, or online services.</span></p>
+          <div class="hover-reveal"><span class="zh">可补充：网址、版本、服务对象、维护状态。</span><span class="en">Add URL, version, users, and maintenance status.</span></div>
+        </article>
+        <aside class="research-preview" aria-live="polite">
+          <span class="preview-index" id="previewIndex">01</span>
+          <h3 id="previewTitle"><span class="zh">基因表达调控与网络建模</span><span class="en">Gene Regulation and Network Modeling</span></h3>
+          <p id="previewText"><span class="zh">适合放你们组最核心的科学问题、正在开发的方法，以及希望吸引的合作方向。</span><span class="en">Use this for the group's central scientific question, active methods, and collaboration directions.</span></p>
+        </aside>
       </div>
     </section>
 
@@ -66,9 +86,9 @@
       <div class="container split">
         <div class="section-heading"><p class="section-index">02</p><h2><span class="zh">代表成果</span><span class="en">Selected Work</span></h2></div>
         <div class="list-panel">
-          <article class="paper-row"><span class="paper-year">2026</span><div><h3><span class="zh">论文题目或工具名称 A</span><span class="en">Paper or Tool Title A</span></h3><p><span class="zh">期刊/会议 · 作者信息 · 简短贡献</span><span class="en">Journal/Conference · Authors · Short contribution</span></p></div></article>
-          <article class="paper-row"><span class="paper-year">2025</span><div><h3><span class="zh">论文题目或工具名称 B</span><span class="en">Paper or Tool Title B</span></h3><p><span class="zh">期刊/会议 · 作者信息 · 简短贡献</span><span class="en">Journal/Conference · Authors · Short contribution</span></p></div></article>
-          <article class="paper-row"><span class="paper-year">2024</span><div><h3><span class="zh">论文题目或工具名称 C</span><span class="en">Paper or Tool Title C</span></h3><p><span class="zh">期刊/会议 · 作者信息 · 简短贡献</span><span class="en">Journal/Conference · Authors · Short contribution</span></p></div></article>
+          <article class="paper-row"><span class="paper-year">2026</span><div><h3><span class="zh">论文题目或工具名称 A</span><span class="en">Paper or Tool Title A</span></h3><p><span class="zh">期刊/会议 · 作者信息 · 简短贡献</span><span class="en">Journal/Conference · Authors · Short contribution</span></p><div class="paper-detail"><span class="zh">鼠标停留时显示：可写一句成果亮点、代码地址或数据链接。</span><span class="en">On hover: add one result highlight, code URL, or dataset link.</span></div></div></article>
+          <article class="paper-row"><span class="paper-year">2025</span><div><h3><span class="zh">论文题目或工具名称 B</span><span class="en">Paper or Tool Title B</span></h3><p><span class="zh">期刊/会议 · 作者信息 · 简短贡献</span><span class="en">Journal/Conference · Authors · Short contribution</span></p><div class="paper-detail"><span class="zh">鼠标停留时显示：可写方法优势、应用场景或合作单位。</span><span class="en">On hover: add method strength, use case, or collaborators.</span></div></div></article>
+          <article class="paper-row"><span class="paper-year">2024</span><div><h3><span class="zh">论文题目或工具名称 C</span><span class="en">Paper or Tool Title C</span></h3><p><span class="zh">期刊/会议 · 作者信息 · 简短贡献</span><span class="en">Journal/Conference · Authors · Short contribution</span></p><div class="paper-detail"><span class="zh">鼠标停留时显示：可写引用、奖项、新闻报道或项目主页。</span><span class="en">On hover: add citations, awards, coverage, or project homepage.</span></div></div></article>
           <a class="text-link" href="publications.html"><span class="zh">查看全部成果</span><span class="en">View all publications</span></a>
         </div>
       </div>
